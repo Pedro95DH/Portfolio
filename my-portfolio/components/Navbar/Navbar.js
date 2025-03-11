@@ -4,6 +4,10 @@ export const changeTheme = () => {
   const themeBtn = document.querySelector("#themeBtn");
   themeBtn.addEventListener("click", () => {
     document.body.classList.toggle("light");
+    const buttonLinks = document.querySelectorAll("a > img");
+    buttonLinks.forEach((img) => {
+      img.classList.toggle("inverted");
+    });
     changeText();
   });
 };
@@ -19,13 +23,13 @@ export const changeText = () => {
 
 export const Navbar = () => `
 <nav>
-<h2>Peter Parker</h2>
+<h2>Pedro Díaz</h2>
 <ul>
     <li>
-        <a href="#" id="homelink">Home</a>
+        <a href="#" id="homelink">Inicio</a>
     </li>
     <li>
-        <a href="#" id="projectslink">Projects</a>
+        <a href="#" id="projectslink">Proyectos</a>
     </li>
     <li>
         <button id="themeBtn">☀</button>
