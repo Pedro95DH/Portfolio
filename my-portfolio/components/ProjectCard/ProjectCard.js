@@ -1,3 +1,4 @@
+import { techies } from "../Technologies/technologies";
 import "./ProjectCard.css";
 
 export const ProjectCard = (project) => `
@@ -17,7 +18,7 @@ export const ProjectCard = (project) => `
 
 <div class="detail">
 <p>${project.description}</p>
-<p class="tech">${project.tech.join(" - ")}</p>
+${techies(project)}
 </div>
 </div>
 `;
