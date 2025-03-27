@@ -1,11 +1,11 @@
-.project-card {
+.recomendLink {
     width: 100%;
     display: flex;
     flex-direction: row;
     gap: 1rem;
   }
   
-  .project-card img {
+  .recomendLink img {
     width: 30px;
     height: 30px;
     border-radius: 0.4rem;
