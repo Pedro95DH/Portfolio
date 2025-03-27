@@ -1,0 +1,34 @@
+.recomendations {
+    padding: 0 8rem;
+    min-height: 80vh;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  @media (max-width: 770px) {
+    .recomendations {
+      padding: 0 2rem;
+    }
+  }
+  
+  .recomendations > h2 {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  
+  .recomendContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (max-width: 770px) {
+    .recomendContainerprojects-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
