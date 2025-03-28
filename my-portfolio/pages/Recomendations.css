@@ -29,7 +29,7 @@
   }
   
   @media (max-width: 770px) {
-    .recomendContainerprojects-container {
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    .recomendContainer {
+      width: 80%;
     }
   }

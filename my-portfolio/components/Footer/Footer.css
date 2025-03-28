@@ -9,9 +9,9 @@ footer {
     margin: 2rem 0;
   }
   
-  @media (max-width: 770px) {
+  @media (max-width: 800px) {
     footer {
-      padding: 0 2rem;
+      padding: 0 2 rem;
       gap: 2rem;
     }
   }
