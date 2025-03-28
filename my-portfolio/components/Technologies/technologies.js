@@ -1,4 +1,4 @@
-import "./Technologies.css";
+import "./technologies.css";
 
 export const techies = (project) => {
   const p = document.createElement("p");
