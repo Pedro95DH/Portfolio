@@ -5,7 +5,7 @@ export const techies = (project) => {
   project.tech.forEach((tech) => {
     const image = document.createElement("img");
     image.classList.add("techLogo");
-    image.setAttribute("src",`../../public/icons/${tech}.png`)
+    image.setAttribute("src",`/icons/${tech}.png`)
     image.setAttribute("alt",`Logo de ${tech}`)
     p.appendChild(image);
   });
