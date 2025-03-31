@@ -18,6 +18,22 @@ export const changeTheme = () => {
   });
 };
 
+document.addEventListener("click", () => {
+  console.log("hola");
+  const buttonLinks = document.querySelectorAll("a > img");
+  buttonLinks.forEach((img) => {
+    if (
+      document.body.classList.contains("light") &&
+      (!img.attributes["data-inverted"] ||
+        img.attributes["data-inverted"].value === "true")
+    ) {
+      img.classList.add("inverted");
+    } else {
+      img.classList.remove("inverted");
+    }
+  });
+});
+
 export const changeText = () => {
   const themeBtn = document.querySelector("#themeBtn");
   if (themeBtn.innerText === "☀") {
