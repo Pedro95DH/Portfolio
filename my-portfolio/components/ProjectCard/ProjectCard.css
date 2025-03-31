@@ -8,7 +8,7 @@
 .project-card img {
   width: 100%;
   height: 250px;
-  border: 5px solid red;
+  border: 0.2 rem;
   object-fit: contain;
 }
 .project-card > .header {
