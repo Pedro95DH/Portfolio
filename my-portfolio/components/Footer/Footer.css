@@ -11,6 +11,7 @@ footer {
 
 @media (max-width: 800px) {
   footer {
+    text-align: center;
     padding: 0 2 rem;
     gap: 2rem;
   }
