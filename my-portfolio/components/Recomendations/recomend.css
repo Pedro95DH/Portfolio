@@ -1,19 +1,19 @@
 .recomendLink {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-  }
-  
-  .recomendLink img {
-    width: 30px;
-    height: 30px;
-    border-radius: 0.4rem;
-    object-fit: contain;
-    filter: invert(0%);
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .recomendLink > .inverted {
-    filter: invert(100%);
-  }
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.recomendLink img {
+  width: 30px;
+  height: 30px;
+  border-radius: 0.4rem;
+  object-fit: contain;
+  filter: invert(0%);
+  transition: all 0.3s ease-in-out;
+}
+
+.recomendLink > .inverted {
+  filter: invert(100%);
+}

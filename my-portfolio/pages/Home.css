@@ -1,29 +1,29 @@
 .home {
-    padding: 0 8rem;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 3rem;
+  padding: 0 8rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+@media (max-width: 700px) {
+  .home {
+    padding: 0 2rem;
+    width: 80%;
+    height: 100%;
   }
-  
-  @media (max-width: 700px) {
-    .home {
-      padding: 0 2rem;
-      width: 80%;
-      height: 100%;
-    }
-  }
-  
-  .home > h1 {
-    font-size: 5.5rem;
-    background: linear-gradient(to right, #00a80e 0%, #33d2ff 50%, #00a80e 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .home > a {
-    font-size: 1.5rem;
-  }
+}
+
+.home > h1 {
+  font-size: 5.5rem;
+  background: linear-gradient(to right, #00a80e 0%, #33d2ff 50%, #00a80e 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home > a {
+  font-size: 1.5rem;
+}

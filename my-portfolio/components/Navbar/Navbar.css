@@ -15,7 +15,7 @@ nav {
     padding: 0 2rem;
   }
 
-  nav h2{
+  nav h2 {
     width: 100%;
     text-align: center;
   }
@@ -27,7 +27,6 @@ nav {
     flex-wrap: wrap;
     gap: 1rem;
   }
-
 }
 
 nav > ul {
