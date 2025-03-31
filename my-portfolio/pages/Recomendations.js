@@ -15,16 +15,10 @@ export const Recomendations = () => {
       </section>`;
   const container = document.querySelector(".recomendContainer");
   for (const recomends of recomendations) {
-    if (recomends.icon == "/recomicons/brain.webp") {
-      const div = document.createElement("div");
-      div.innerHTML = recomendation(recomends);
-      container.appendChild(div);
-      const img = document.createElement("div a img");
-      img.classList.toggle("inverted");
-    } else {
-      const div = document.createElement("div");
-      div.innerHTML = recomendation(recomends);
-      container.appendChild(div);
-    }
+    const div = document.createElement("div");
+    div.innerHTML = recomendation(recomends);
+    container.appendChild(div);
+    const img = div.querySelector("a img");
+    img.setAttribute("data-inverted", recomends.blackWhite);
   }
 };

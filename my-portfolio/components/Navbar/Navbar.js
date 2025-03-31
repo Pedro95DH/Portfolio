@@ -6,7 +6,13 @@ export const changeTheme = () => {
     document.body.classList.toggle("light");
     const buttonLinks = document.querySelectorAll("a > img");
     buttonLinks.forEach((img) => {
-      img.classList.toggle("inverted");
+      console.log(img.attributes["data-inverted"]);
+      if (
+        !img.attributes["data-inverted"] ||
+        img.attributes["data-inverted"].value === "true"
+      ) {
+        img.classList.toggle("inverted");
+      }
     });
     changeText();
   });
