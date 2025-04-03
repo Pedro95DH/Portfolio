@@ -7,6 +7,12 @@ nav {
   flex-wrap: wrap;
 }
 
+nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
 @media (max-width: 800px) {
   nav {
     height: 20vh;
@@ -27,12 +33,6 @@ nav {
     flex-wrap: wrap;
     gap: 1rem;
   }
-}
-
-nav > ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 3rem;
 }
 
 nav button {
